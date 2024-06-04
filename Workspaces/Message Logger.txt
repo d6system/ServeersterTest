@@ -1,0 +1,239 @@
+{
+    "id": "ZhGDZVkYEr",
+    "active": true,
+    "info": {
+        "title": "Message logger",
+        "description": "",
+        "thumbnail": ""
+    },
+    "blocks": [
+        {
+            "name": "message_event",
+            "inputs": {},
+            "options": {},
+            "outputs": {
+                "action": [
+                    "zDFpuQs9jU"
+                ],
+                "message": [
+                    "BwcacEnTWR"
+                ],
+                "server": [],
+                "channel": [],
+                "user": [
+                    "DaxT8PyhSl"
+                ],
+                "member": []
+            },
+            "info": {
+                "x": 98,
+                "y": 186,
+                "z": 1,
+                "width": 221,
+                "height": 237,
+                "color": "#5a5a5a"
+            }
+        },
+        {
+            "name": "get_message_info",
+            "inputs": {
+                "action": "zDFpuQs9jU",
+                "message": "BwcacEnTWR"
+            },
+            "options": {
+                "message_info": "6"
+            },
+            "outputs": {
+                "action": [
+                    "1kWtVNaeSd"
+                ],
+                "result": [
+                    "MO92DQCAJT",
+                    "TPexZ7Eriz"
+                ]
+            },
+            "info": {
+                "x": 471,
+                "y": 361,
+                "z": 2,
+                "width": 653,
+                "height": 160,
+                "color": "#5a5a5a"
+            }
+        },
+        {
+            "name": "get_user_info",
+            "inputs": {
+                "action": "1kWtVNaeSd",
+                "user": "DaxT8PyhSl"
+            },
+            "options": {
+                "user_info": "10"
+            },
+            "outputs": {
+                "action": [
+                    "Oyoee5yQvr"
+                ],
+                "result": [
+                    "Jb1bCloxP8",
+                    "TQjGzD7ABF",
+                    "nUfxOEZO58"
+                ]
+            },
+            "info": {
+                "x": 1789,
+                "y": 366,
+                "z": 14,
+                "width": 544,
+                "height": 160,
+                "color": "#5a5a5a"
+            }
+        },
+        {
+            "name": "merge_texts_advanced",
+            "inputs": {
+                "action": "RL2UPzSvQX",
+                "text1": "pm70RsmPt0",
+                "text2": "nUfxOEZO58",
+                "text3": "7Nm2R332AO"
+            },
+            "options": {
+                "text": "INSERT INTO `messages` (`ID`, `UserID`, `datetime`) VALUES (NULL, '${text2}','${text1}');"
+            },
+            "outputs": {
+                "action": [
+                    "nl1SVLmJ3O"
+                ],
+                "text": [
+                    "TIK4ySAg1E"
+                ]
+            },
+            "info": {
+                "x": 3490,
+                "y": 650,
+                "z": 0,
+                "width": 1330,
+                "height": 190,
+                "color": ""
+            }
+        },
+        {
+            "name": "get_date_info",
+            "inputs": {
+                "action": "Oyoee5yQvr",
+                "date": "TPexZ7Eriz"
+            },
+            "options": {
+                "date_info": "1",
+                "time_type": "local"
+            },
+            "outputs": {
+                "action": [
+                    "RL2UPzSvQX"
+                ],
+                "result": [
+                    "pm70RsmPt0"
+                ]
+            },
+            "info": {
+                "x": 2920,
+                "y": 630,
+                "z": 0,
+                "width": 459,
+                "height": 160,
+                "color": ""
+            }
+        },
+        {
+            "name": "database_query",
+            "inputs": {
+                "action": "nl1SVLmJ3O",
+                "query": "TIK4ySAg1E"
+            },
+            "options": {},
+            "outputs": {
+                "action": [],
+                "erroraction": [],
+                "response": [],
+                "errormsg": []
+            },
+            "info": {
+                "x": 4860,
+                "y": 660,
+                "z": 0,
+                "width": 289,
+                "height": 176,
+                "color": ""
+            }
+        },
+        {
+            "name": "console_log",
+            "inputs": {
+                "action": "JIQocLD5Ze",
+                "value": "DrTMWaD6PK"
+            },
+            "options": {
+                "value": "[bot] SQL Connection established to table timestamp"
+            },
+            "outputs": {
+                "action": [
+                    "EBNoLXvfBh"
+                ]
+            },
+            "info": {
+                "x": 670,
+                "y": 1200,
+                "z": 0,
+                "width": 364,
+                "height": 117,
+                "color": ""
+            }
+        },
+        {
+            "name": "console_log",
+            "inputs": {
+                "action": "EBNoLXvfBh",
+                "value": "pZ7z9vPDMA"
+            },
+            "options": {
+                "value": "[bot] SQL Connection established to table messages"
+            },
+            "outputs": {
+                "action": []
+            },
+            "info": {
+                "x": 1130,
+                "y": 1250,
+                "z": 0,
+                "width": 364,
+                "height": 117,
+                "color": ""
+            }
+        },
+        {
+            "name": "database_sql_file_option",
+            "inputs": {},
+            "options": {
+                "host": "config/db/host.txt",
+                "port": "config/db/port.txt",
+                "user": "config/db/user.txt",
+                "password": "config/db/pass.txt",
+                "database": "config/db/db.txt"
+            },
+            "outputs": {
+                "action": [
+                    "JIQocLD5Ze"
+                ]
+            },
+            "info": {
+                "x": 170,
+                "y": 1000,
+                "z": 0,
+                "width": 289,
+                "height": 377,
+                "color": ""
+            }
+        }
+    ],
+    "notes": []
+}
