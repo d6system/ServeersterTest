@@ -258,7 +258,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6b12"
+                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6b13"
                 },
                 "outputs": {
                     "text": [
@@ -11591,58 +11591,6 @@
                 }
             },
             {
-                "name": "text_4x",
-                "inputs": {},
-                "options": {
-                    "text1": "127.0.0.1",
-                    "text2": "serveerster",
-                    "text3": "thuis",
-                    "text4": "db.conf"
-                },
-                "outputs": {
-                    "text1": [
-                        "uDUq2Eugyn"
-                    ],
-                    "text2": [
-                        "egWIMLgUKA"
-                    ],
-                    "text3": [
-                        "RlmytIBbpP"
-                    ],
-                    "text4": [
-                        "BxXR4sxzvv"
-                    ]
-                },
-                "info": {
-                    "x": 0,
-                    "y": 918,
-                    "z": 8,
-                    "width": 318,
-                    "height": 319,
-                    "color": "#5a5a5a"
-                }
-            },
-            {
-                "name": "number",
-                "inputs": {},
-                "options": {
-                    "number": 3306
-                },
-                "outputs": {
-                    "number": [
-                        "2I1xOOseo2"
-                    ]
-                },
-                "info": {
-                    "x": 0,
-                    "y": 1255,
-                    "z": 9,
-                    "width": 343,
-                    "height": 107,
-                    "color": "#5a5a5a"
-                }
-            },
-            {
                 "name": "get_member_info",
                 "inputs": {
                     "action": "jweEyrB6BF",
@@ -11735,13 +11683,13 @@
                 },
                 "outputs": {
                     "action": [
-                        "8CfErF5KFc"
+                        "dCNtvuZSah"
                     ],
                     "message": []
                 },
                 "info": {
-                    "x": 873,
-                    "y": 459,
+                    "x": 660,
+                    "y": 460,
                     "z": 80,
                     "width": 400,
                     "height": 299,
@@ -11878,16 +11826,16 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "870926790854586398"
+                    "text": "config/channels/log.txt"
                 },
                 "outputs": {
                     "text": [
-                        "EPFs8TFSef"
+                        "QsQXuPdt2u"
                     ]
                 },
                 "info": {
-                    "x": 1143,
-                    "y": 797,
+                    "x": 540,
+                    "y": 770,
                     "z": 85,
                     "width": 305,
                     "height": 118,
@@ -11916,24 +11864,51 @@
                 }
             },
             {
-                "name": "database_sql_config",
+                "name": "read_file",
                 "inputs": {
-                    "host": "uDUq2Eugyn",
-                    "port": "2I1xOOseo2",
-                    "user": "egWIMLgUKA",
-                    "database": "RlmytIBbpP",
-                    "file_path": "BxXR4sxzvv"
+                    "action": "dCNtvuZSah",
+                    "file_path": "QsQXuPdt2u"
                 },
-                "options": {},
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "8CfErF5KFc"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "EPFs8TFSef"
+                    ]
+                },
+                "info": {
+                    "x": 1000,
+                    "y": 820,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "database_sql_file_option",
+                "inputs": {},
+                "options": {
+                    "host": "config/db/host.txt",
+                    "port": "config/db/port.txt",
+                    "user": "config/db/user.txt",
+                    "password": "config/db/pass.txt",
+                    "database": "config/db/db.txt"
+                },
                 "outputs": {
                     "action": []
                 },
                 "info": {
-                    "x": 430,
-                    "y": 1060,
+                    "x": 70,
+                    "y": 1000,
                     "z": 0,
-                    "width": 243,
-                    "height": 190,
+                    "width": 289,
+                    "height": 377,
                     "color": ""
                 }
             }
@@ -11970,58 +11945,6 @@
                     "z": 6,
                     "width": 303,
                     "height": 176,
-                    "color": "#5a5a5a"
-                }
-            },
-            {
-                "name": "text_4x",
-                "inputs": {},
-                "options": {
-                    "text1": "127.0.0.1",
-                    "text2": "serveerster",
-                    "text3": "thuis",
-                    "text4": "db.conf"
-                },
-                "outputs": {
-                    "text1": [
-                        "TiNhDAtoNK"
-                    ],
-                    "text2": [
-                        "sxOr6tLHab"
-                    ],
-                    "text3": [
-                        "bhVdZYBzZx"
-                    ],
-                    "text4": [
-                        "F5y652IMXN"
-                    ]
-                },
-                "info": {
-                    "x": 0,
-                    "y": 918,
-                    "z": 8,
-                    "width": 318,
-                    "height": 319,
-                    "color": "#5a5a5a"
-                }
-            },
-            {
-                "name": "number",
-                "inputs": {},
-                "options": {
-                    "number": 3306
-                },
-                "outputs": {
-                    "number": [
-                        "OjTtLhm36r"
-                    ]
-                },
-                "info": {
-                    "x": 0,
-                    "y": 1255,
-                    "z": 9,
-                    "width": 343,
-                    "height": 107,
                     "color": "#5a5a5a"
                 }
             },
@@ -12118,7 +12041,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "x7TZfXeT46"
+                        "mwMYHElw8q"
                     ],
                     "message": []
                 },
@@ -12261,16 +12184,16 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "870926790854586398"
+                    "text": "config/channels/log.txt"
                 },
                 "outputs": {
                     "text": [
-                        "rdTbieBGJ5"
+                        "H28qBaY3hW"
                     ]
                 },
                 "info": {
-                    "x": 975,
-                    "y": 809,
+                    "x": 880,
+                    "y": 930,
                     "z": 85,
                     "width": 305,
                     "height": 118,
@@ -12299,24 +12222,51 @@
                 }
             },
             {
-                "name": "database_sql_config",
-                "inputs": {
-                    "host": "TiNhDAtoNK",
-                    "port": "OjTtLhm36r",
-                    "user": "sxOr6tLHab",
-                    "database": "bhVdZYBzZx",
-                    "file_path": "F5y652IMXN"
+                "name": "database_sql_file_option",
+                "inputs": {},
+                "options": {
+                    "host": "config/db/host.txt",
+                    "port": "config/db/port.txt",
+                    "user": "config/db/user.txt",
+                    "password": "config/db/pass.txt",
+                    "database": "config/db/db.txt"
                 },
-                "options": {},
                 "outputs": {
                     "action": []
                 },
                 "info": {
-                    "x": 450,
-                    "y": 1090,
+                    "x": 170,
+                    "y": 910,
                     "z": 0,
-                    "width": 243,
-                    "height": 190,
+                    "width": 289,
+                    "height": 377,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "mwMYHElw8q",
+                    "file_path": "H28qBaY3hW"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "x7TZfXeT46"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "rdTbieBGJ5"
+                    ]
+                },
+                "info": {
+                    "x": 1290,
+                    "y": 950,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
                     "color": ""
                 }
             }
@@ -12353,58 +12303,6 @@
                     "z": 6,
                     "width": 303,
                     "height": 176,
-                    "color": "#5a5a5a"
-                }
-            },
-            {
-                "name": "text_4x",
-                "inputs": {},
-                "options": {
-                    "text1": "127.0.0.1",
-                    "text2": "serveerster",
-                    "text3": "thuis",
-                    "text4": "db.conf"
-                },
-                "outputs": {
-                    "text1": [
-                        "KPLRvb5iD7"
-                    ],
-                    "text2": [
-                        "LvJ0BIg2gv"
-                    ],
-                    "text3": [
-                        "kL2xDBZljH"
-                    ],
-                    "text4": [
-                        "3MJEFii29j"
-                    ]
-                },
-                "info": {
-                    "x": 0,
-                    "y": 918,
-                    "z": 8,
-                    "width": 318,
-                    "height": 319,
-                    "color": "#5a5a5a"
-                }
-            },
-            {
-                "name": "number",
-                "inputs": {},
-                "options": {
-                    "number": 3306
-                },
-                "outputs": {
-                    "number": [
-                        "Ogwy6e8A1o"
-                    ]
-                },
-                "info": {
-                    "x": 0,
-                    "y": 1255,
-                    "z": 9,
-                    "width": 343,
-                    "height": 107,
                     "color": "#5a5a5a"
                 }
             },
@@ -12561,7 +12459,7 @@
                 "options": {},
                 "outputs": {
                     "action": [
-                        "Wn7ey1IIa1"
+                        "D4snDbpb6i"
                     ],
                     "member": [
                         "1aAJg3YmRQ"
@@ -12671,8 +12569,8 @@
                     ]
                 },
                 "info": {
-                    "x": 1590,
-                    "y": 1610,
+                    "x": 1930,
+                    "y": 1630,
                     "z": 63,
                     "width": 456,
                     "height": 171,
@@ -12688,7 +12586,7 @@
                 "options": {},
                 "outputs": {
                     "action": [
-                        "9eNajqv0SQ"
+                        "Q5gSrlugiN"
                     ]
                 },
                 "info": {
@@ -12701,43 +12599,20 @@
                 }
             },
             {
-                "name": "text_2x",
-                "inputs": {},
-                "options": {
-                    "text1": "443121395615137792",
-                    "text2": ""
-                },
-                "outputs": {
-                    "text1": [
-                        "r4MimKcwZt",
-                        "Nh6os6cpjG"
-                    ],
-                    "text2": []
-                },
-                "info": {
-                    "x": 36,
-                    "y": 2126,
-                    "z": 66,
-                    "width": 318,
-                    "height": 185,
-                    "color": "#5a5a5a"
-                }
-            },
-            {
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "840833792121896960"
+                    "text": "config/roles/bday.txt"
                 },
                 "outputs": {
                     "text": [
-                        "rAKBhYo2d0",
-                        "1mfiYS0ibk"
+                        "karYrBwCg6",
+                        "RuMT5vZVrF"
                     ]
                 },
                 "info": {
-                    "x": 49,
-                    "y": 2694,
+                    "x": 60,
+                    "y": 2660,
                     "z": 67,
                     "width": 305,
                     "height": 118,
@@ -12788,8 +12663,8 @@
                     ]
                 },
                 "info": {
-                    "x": 3134,
-                    "y": 2502,
+                    "x": 2890,
+                    "y": 2470,
                     "z": 69,
                     "width": 446,
                     "height": 171,
@@ -12802,40 +12677,20 @@
                     "cronInfo": "2QuGP9moAg"
                 },
                 "options": {
-                    "cronInfo": "",
+                    "cronInfo": "55 6 * * *",
                     "timezone": "Europe/Amsterdam"
                 },
                 "outputs": {
                     "action": [
-                        "QzbXfxX1Yp"
+                        "QyPoDIcb1v"
                     ]
                 },
                 "info": {
-                    "x": 444,
-                    "y": 3031,
+                    "x": 0,
+                    "y": 2960,
                     "z": 70,
                     "width": 486,
                     "height": 171,
-                    "color": "#5a5a5a"
-                }
-            },
-            {
-                "name": "text",
-                "inputs": {},
-                "options": {
-                    "text": "55 6 * * *"
-                },
-                "outputs": {
-                    "text": [
-                        "2QuGP9moAg"
-                    ]
-                },
-                "info": {
-                    "x": 46,
-                    "y": 3024,
-                    "z": 71,
-                    "width": 305,
-                    "height": 118,
                     "color": "#5a5a5a"
                 }
             },
@@ -12906,15 +12761,15 @@
                 },
                 "outputs": {
                     "action": [
-                        "7G70BOl8W7"
+                        "ghjP6WBia9"
                     ],
                     "server": [
                         "rKIZk5q7It"
                     ]
                 },
                 "info": {
-                    "x": 930,
-                    "y": 3030,
+                    "x": 0,
+                    "y": 3460,
                     "z": 74,
                     "width": 456,
                     "height": 171,
@@ -13036,7 +12891,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "CzI9gU6rMC"
+                        "dHZ7q0YylU"
                     ],
                     "message": []
                 },
@@ -13179,11 +13034,11 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "870926790854586398"
+                    "text": "config/channels/log.txt"
                 },
                 "outputs": {
                     "text": [
-                        "aUhzCFVK5G"
+                        "XfoVsURe8g"
                     ]
                 },
                 "info": {
@@ -13208,8 +13063,8 @@
                     "action": []
                 },
                 "info": {
-                    "x": 840,
-                    "y": 1080,
+                    "x": 410,
+                    "y": 1040,
                     "z": 0,
                     "width": 364,
                     "height": 117,
@@ -13270,26 +13125,182 @@
                 }
             },
             {
-                "name": "database_sql_config",
+                "name": "read_file",
                 "inputs": {
-                    "host": "KPLRvb5iD7",
-                    "port": "Ogwy6e8A1o",
-                    "user": "LvJ0BIg2gv",
-                    "database": "kL2xDBZljH",
-                    "file_path": "3MJEFii29j"
+                    "action": "dHZ7q0YylU",
+                    "file_path": "XfoVsURe8g"
                 },
-                "options": {},
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "CzI9gU6rMC"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "aUhzCFVK5G"
+                    ]
+                },
+                "info": {
+                    "x": 1350,
+                    "y": 810,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "database_sql_file_option",
+                "inputs": {},
+                "options": {
+                    "host": "config/db/host.txt",
+                    "port": "config/db/port.txt",
+                    "user": "config/db/user.txt",
+                    "password": "config/db/pass.txt",
+                    "database": "config/db/db.txt"
+                },
                 "outputs": {
                     "action": [
                         "Iidmb6Tk9M"
                     ]
                 },
                 "info": {
-                    "x": 470,
-                    "y": 890,
+                    "x": 0,
+                    "y": 940,
                     "z": 0,
-                    "width": 243,
-                    "height": 190,
+                    "width": 289,
+                    "height": 377,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "Q5gSrlugiN",
+                    "file_path": "UcXKNkmnUT"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "9eNajqv0SQ"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "r4MimKcwZt"
+                    ]
+                },
+                "info": {
+                    "x": 1250,
+                    "y": 1510,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text",
+                "inputs": {},
+                "options": {
+                    "text": "config/server.txt"
+                },
+                "outputs": {
+                    "text": [
+                        "UcXKNkmnUT",
+                        "3N1DyCcVrY"
+                    ]
+                },
+                "info": {
+                    "x": 60,
+                    "y": 2160,
+                    "z": 0,
+                    "width": 276,
+                    "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "QyPoDIcb1v",
+                    "file_path": "3N1DyCcVrY"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "QzbXfxX1Yp"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "Nh6os6cpjG"
+                    ]
+                },
+                "info": {
+                    "x": 0,
+                    "y": 3270,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "D4snDbpb6i",
+                    "file_path": "RuMT5vZVrF"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "Wn7ey1IIa1"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "rAKBhYo2d0"
+                    ]
+                },
+                "info": {
+                    "x": 2140,
+                    "y": 2410,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "ghjP6WBia9",
+                    "file_path": "karYrBwCg6"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "7G70BOl8W7"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "1mfiYS0ibk"
+                    ]
+                },
+                "info": {
+                    "x": 730,
+                    "y": 3040,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
                     "color": ""
                 }
             }
