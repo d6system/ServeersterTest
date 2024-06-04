@@ -6430,9 +6430,9 @@
                 "name": "text_3x",
                 "inputs": {},
                 "options": {
-                    "text1": "config/roles/member-role.txt",
-                    "text2": "config/roles/inactive-role.txt",
-                    "text3": "config/roles/timeout-role.txt"
+                    "text1": "config/roles/member.txt",
+                    "text2": "config/roles/inactive.txt",
+                    "text3": "config/roles/timeout.txt"
                 },
                 "outputs": {
                     "text1": [
@@ -6647,7 +6647,7 @@
                     "x": 2160,
                     "y": 1910,
                     "z": 0,
-                    "width": 447,
+                    "width": 451,
                     "height": 138,
                     "color": ""
                 }
@@ -6698,8 +6698,8 @@
                     "x": 3280,
                     "y": 1810,
                     "z": 0,
-                    "width": 501,
-                    "height": 213,
+                    "width": 505,
+                    "height": 225,
                     "color": ""
                 }
             },
