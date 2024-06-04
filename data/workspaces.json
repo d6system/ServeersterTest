@@ -801,7 +801,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6b05"
+                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6b06"
                 },
                 "outputs": {
                     "text": [
@@ -1136,7 +1136,7 @@
                 "options": {
                     "text1": "config/status.txt",
                     "text2": "config/server.txt",
-                    "text3": "config/logchannel.txt"
+                    "text3": "config/channels/log.txt"
                 },
                 "outputs": {
                     "text1": [
@@ -2017,7 +2017,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "config/logchannel.txt"
+                    "text": "config/channels/log.txt"
                 },
                 "outputs": {
                     "text": [
@@ -6775,8 +6775,8 @@
                     "member": []
                 },
                 "info": {
-                    "x": 610,
-                    "y": 1290,
+                    "x": 170,
+                    "y": 230,
                     "z": 0,
                     "width": 198,
                     "height": 216,
@@ -6801,34 +6801,11 @@
                     ]
                 },
                 "info": {
-                    "x": 1080,
-                    "y": 1550,
+                    "x": 610,
+                    "y": 430,
                     "z": 0,
                     "width": 687,
                     "height": 160,
-                    "color": ""
-                }
-            },
-            {
-                "name": "console_log",
-                "inputs": {
-                    "action": "RE2TsmBQ9J",
-                    "value": "iUb3GfdcQk"
-                },
-                "options": {
-                    "value": "Server bumped (Message event)"
-                },
-                "outputs": {
-                    "action": [
-                        "c79HVlWcGF"
-                    ]
-                },
-                "info": {
-                    "x": 3590,
-                    "y": 2360,
-                    "z": 0,
-                    "width": 364,
-                    "height": 117,
                     "color": ""
                 }
             },
@@ -6851,8 +6828,8 @@
                     ]
                 },
                 "info": {
-                    "x": 1960,
-                    "y": 1970,
+                    "x": 1450,
+                    "y": 460,
                     "z": 0,
                     "width": 319,
                     "height": 176,
@@ -6877,8 +6854,8 @@
                     ]
                 },
                 "info": {
-                    "x": 2280,
-                    "y": 2220,
+                    "x": 1840,
+                    "y": 480,
                     "z": 0,
                     "width": 636,
                     "height": 160,
@@ -6903,8 +6880,8 @@
                     ]
                 },
                 "info": {
-                    "x": 940,
-                    "y": 1180,
+                    "x": 630,
+                    "y": 180,
                     "z": 0,
                     "width": 687,
                     "height": 160,
@@ -6929,8 +6906,8 @@
                     ]
                 },
                 "info": {
-                    "x": 1720,
-                    "y": 1220,
+                    "x": 1400,
+                    "y": 210,
                     "z": 0,
                     "width": 556,
                     "height": 160,
@@ -6955,8 +6932,8 @@
                     "action2": []
                 },
                 "info": {
-                    "x": 2445,
-                    "y": 1341,
+                    "x": 2060,
+                    "y": 220,
                     "z": 0,
                     "width": 476,
                     "height": 171,
@@ -6976,13 +6953,13 @@
                 },
                 "outputs": {
                     "action1": [
-                        "RE2TsmBQ9J"
+                        "IPDMMpdmN4"
                     ],
                     "action2": []
                 },
                 "info": {
-                    "x": 3110,
-                    "y": 2120,
+                    "x": 520,
+                    "y": 650,
                     "z": 0,
                     "width": 476,
                     "height": 171,
@@ -6999,7 +6976,7 @@
                 "options": {
                     "channel_type": "any",
                     "find_channel_by": "id",
-                    "search_value": "870926790854586398"
+                    "search_value": ""
                 },
                 "outputs": {
                     "action": [
@@ -7011,8 +6988,8 @@
                     ]
                 },
                 "info": {
-                    "x": 3080,
-                    "y": 2660,
+                    "x": 1440,
+                    "y": 760,
                     "z": 0,
                     "width": 505,
                     "height": 225,
@@ -7034,8 +7011,8 @@
                     ]
                 },
                 "info": {
-                    "x": 4290,
-                    "y": 2810,
+                    "x": 2530,
+                    "y": 800,
                     "z": 0,
                     "width": 376,
                     "height": 156,
@@ -7069,8 +7046,8 @@
                     "error": []
                 },
                 "info": {
-                    "x": 3740,
-                    "y": 2680,
+                    "x": 2020,
+                    "y": 750,
                     "z": 0,
                     "width": 415,
                     "height": 372,
@@ -7102,8 +7079,8 @@
                     "error": []
                 },
                 "info": {
-                    "x": 4760,
-                    "y": 2770,
+                    "x": 3000,
+                    "y": 780,
                     "z": 0,
                     "width": 415,
                     "height": 372,
@@ -7135,11 +7112,58 @@
                     "error": []
                 },
                 "info": {
-                    "x": 4760,
-                    "y": 3150,
+                    "x": 70,
+                    "y": 600,
                     "z": 0,
                     "width": 415,
                     "height": 372,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "IPDMMpdmN4",
+                    "file_path": "oGq0zz2OuZ"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "c79HVlWcGF"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "yz0CZKJcDE"
+                    ]
+                },
+                "info": {
+                    "x": 840,
+                    "y": 880,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text",
+                "inputs": {},
+                "options": {
+                    "text": "config/channels/log.txt"
+                },
+                "outputs": {
+                    "text": [
+                        "oGq0zz2OuZ"
+                    ]
+                },
+                "info": {
+                    "x": 430,
+                    "y": 1030,
+                    "z": 0,
+                    "width": 276,
+                    "height": 117,
                     "color": ""
                 }
             }
