@@ -258,7 +258,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6b13"
+                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6b14"
                 },
                 "outputs": {
                     "text": [
@@ -20383,8 +20383,8 @@
                     ]
                 },
                 "info": {
-                    "x": 845,
-                    "y": 698,
+                    "x": 2190,
+                    "y": 160,
                     "z": 3,
                     "width": 446,
                     "height": 171,
@@ -20406,8 +20406,8 @@
                     ]
                 },
                 "info": {
-                    "x": 2380,
-                    "y": 186,
+                    "x": 2660,
+                    "y": 190,
                     "z": 4,
                     "width": 288,
                     "height": 144,
@@ -20432,8 +20432,8 @@
                     "action1": []
                 },
                 "info": {
-                    "x": 2107,
-                    "y": 520,
+                    "x": 2970,
+                    "y": 180,
                     "z": 5,
                     "width": 340,
                     "height": 321,
@@ -20452,8 +20452,8 @@
                     ]
                 },
                 "info": {
-                    "x": 1853,
-                    "y": 1154,
+                    "x": 2380,
+                    "y": 790,
                     "z": 7,
                     "width": 305,
                     "height": 118,
@@ -20464,16 +20464,16 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "455712421508808705"
+                    "text": "config/roles/verified.txt"
                 },
                 "outputs": {
                     "text": [
-                        "tzXwhscVqJ"
+                        "mOe0iySZHO"
                     ]
                 },
                 "info": {
-                    "x": 195,
-                    "y": 942,
+                    "x": 1340,
+                    "y": 0,
                     "z": 8,
                     "width": 305,
                     "height": 118,
@@ -20502,8 +20502,8 @@
                     "message": []
                 },
                 "info": {
-                    "x": 3180,
-                    "y": 969,
+                    "x": 2950,
+                    "y": 580,
                     "z": 9,
                     "width": 400,
                     "height": 299,
@@ -20569,7 +20569,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "dhibHThQri"
+                        "Fv4haisn1s"
                     ],
                     "output": [
                         "5AmlnZMicq",
@@ -20595,15 +20595,15 @@
                 "options": {},
                 "outputs": {
                     "action1": [
-                        "NSUDq8D5El"
+                        "f3kxdjnzXO"
                     ],
                     "action2": [
                         "pRwxTMRHBO"
                     ]
                 },
                 "info": {
-                    "x": 934,
-                    "y": 551,
+                    "x": 930,
+                    "y": 840,
                     "z": 12,
                     "width": 288,
                     "height": 144,
@@ -20630,8 +20630,8 @@
                     ]
                 },
                 "info": {
-                    "x": 901,
-                    "y": 385,
+                    "x": 860,
+                    "y": 630,
                     "z": 13,
                     "width": 446,
                     "height": 171,
@@ -20642,11 +20642,11 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "782596491290214411"
+                    "text": "config/roles/staff.txt"
                 },
                 "outputs": {
                     "text": [
-                        "fMsPM07C4j"
+                        "oTUJzzB32v"
                     ]
                 },
                 "info": {
@@ -20678,8 +20678,8 @@
                     "message": []
                 },
                 "info": {
-                    "x": 1522,
-                    "y": 791,
+                    "x": 1480,
+                    "y": 700,
                     "z": 15,
                     "width": 400,
                     "height": 299,
@@ -20698,8 +20698,8 @@
                     ]
                 },
                 "info": {
-                    "x": 599,
-                    "y": 1028,
+                    "x": 1280,
+                    "y": 1150,
                     "z": 16,
                     "width": 305,
                     "height": 118,
@@ -20723,8 +20723,8 @@
                     "message": []
                 },
                 "info": {
-                    "x": 3644,
-                    "y": 1247,
+                    "x": 2970,
+                    "y": 910,
                     "z": 17,
                     "width": 347,
                     "height": 206,
@@ -20743,12 +20743,66 @@
                     ]
                 },
                 "info": {
-                    "x": 2530,
-                    "y": 1333,
+                    "x": 2000,
+                    "y": 1020,
                     "z": 18,
                     "width": 920,
                     "height": 202,
                     "color": "#5a5a5a"
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "f3kxdjnzXO",
+                    "file_path": "mOe0iySZHO"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "NSUDq8D5El"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "tzXwhscVqJ"
+                    ]
+                },
+                "info": {
+                    "x": 1590,
+                    "y": 160,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "Fv4haisn1s",
+                    "file_path": "oTUJzzB32v"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "dhibHThQri"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "fMsPM07C4j"
+                    ]
+                },
+                "info": {
+                    "x": 870,
+                    "y": 450,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
                 }
             }
         ],
