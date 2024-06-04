@@ -56,38 +56,6 @@
                 }
             },
             {
-                "name": "text_6x",
-                "inputs": {},
-                "options": {
-                    "text1": "config/staffrole.txt",
-                    "text2": "config/it.txt",
-                    "text3": "",
-                    "text4": "",
-                    "text5": "",
-                    "text6": ""
-                },
-                "outputs": {
-                    "text1": [
-                        "APL4Pk0P2y"
-                    ],
-                    "text2": [
-                        "iEWxVtgjZD"
-                    ],
-                    "text3": [],
-                    "text4": [],
-                    "text5": [],
-                    "text6": []
-                },
-                "info": {
-                    "x": 20,
-                    "y": 430,
-                    "z": 0,
-                    "width": 287,
-                    "height": 442,
-                    "color": ""
-                }
-            },
-            {
                 "name": "check_if_member_has_role",
                 "inputs": {
                     "action": "0NvrT4N3yr",
@@ -104,8 +72,8 @@
                     ]
                 },
                 "info": {
-                    "x": 720,
-                    "y": 370,
+                    "x": 830,
+                    "y": 350,
                     "z": 0,
                     "width": 268,
                     "height": 138,
@@ -162,7 +130,7 @@
                 },
                 "info": {
                     "x": 650,
-                    "y": 190,
+                    "y": 180,
                     "z": 0,
                     "width": 423,
                     "height": 171,
@@ -243,7 +211,7 @@
                 },
                 "info": {
                     "x": 650,
-                    "y": 540,
+                    "y": 490,
                     "z": 0,
                     "width": 451,
                     "height": 138,
@@ -271,7 +239,7 @@
                 },
                 "info": {
                     "x": 650,
-                    "y": 700,
+                    "y": 630,
                     "z": 0,
                     "width": 423,
                     "height": 171,
@@ -295,8 +263,8 @@
                     ]
                 },
                 "info": {
-                    "x": 730,
-                    "y": 900,
+                    "x": 650,
+                    "y": 800,
                     "z": 0,
                     "width": 268,
                     "height": 138,
@@ -349,8 +317,8 @@
                     ]
                 },
                 "info": {
-                    "x": 1300,
-                    "y": 890,
+                    "x": 1330,
+                    "y": 780,
                     "z": 0,
                     "width": 209,
                     "height": 138,
@@ -369,8 +337,8 @@
                     ]
                 },
                 "info": {
-                    "x": 1100,
-                    "y": 400,
+                    "x": 1120,
+                    "y": 340,
                     "z": 0,
                     "width": 276,
                     "height": 117,
@@ -544,6 +512,30 @@
                     "z": 0,
                     "width": 398,
                     "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text_2x",
+                "inputs": {},
+                "options": {
+                    "text1": "config/roles/staff.txt",
+                    "text2": "config/roles/it.txt"
+                },
+                "outputs": {
+                    "text1": [
+                        "APL4Pk0P2y"
+                    ],
+                    "text2": [
+                        "iEWxVtgjZD"
+                    ]
+                },
+                "info": {
+                    "x": 20,
+                    "y": 450,
+                    "z": 0,
+                    "width": 287,
+                    "height": 182,
                     "color": ""
                 }
             }
@@ -809,7 +801,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6b04"
+                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6b05"
                 },
                 "outputs": {
                     "text": [
@@ -1785,7 +1777,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "config/staffrole.txt"
+                    "text": "config/roles/staff.txt"
                 },
                 "outputs": {
                     "text": [
@@ -4087,10 +4079,10 @@
                 "name": "text_4x",
                 "inputs": {},
                 "options": {
-                    "text1": "config",
+                    "text1": "",
                     "text2": "config/total.txt",
-                    "text3": "config/bots.txt",
-                    "text4": "config/members.txt"
+                    "text3": "",
+                    "text4": ""
                 },
                 "outputs": {
                     "text1": [],
@@ -5080,7 +5072,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "config/staffrole.txt"
+                    "text": "config/roles/staff.txt"
                 },
                 "outputs": {
                     "text": [
@@ -5531,7 +5523,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "config/staffrole.txt"
+                    "text": "config/roles/staff.txt"
                 },
                 "outputs": {
                     "text": [
