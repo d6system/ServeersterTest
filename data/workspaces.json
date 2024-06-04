@@ -258,7 +258,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6b10"
+                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6b11"
                 },
                 "outputs": {
                     "text": [
@@ -9795,7 +9795,7 @@
                         "F0FQRjGtVQ"
                     ],
                     "action2": [
-                        "NnMSChJJGz"
+                        "3QG65w4Ywq"
                     ],
                     "index": [],
                     "value": [
@@ -9910,7 +9910,7 @@
                 },
                 "info": {
                     "x": 0,
-                    "y": 1436,
+                    "y": 1450,
                     "z": 27,
                     "width": 318,
                     "height": 252,
@@ -9960,8 +9960,8 @@
                     ]
                 },
                 "info": {
-                    "x": 2824,
-                    "y": 1486,
+                    "x": 2780,
+                    "y": 1440,
                     "z": 29,
                     "width": 364,
                     "height": 117,
@@ -9979,12 +9979,12 @@
                 "options": {},
                 "outputs": {
                     "action": [
-                        "0KVkCMHGng"
+                        "NRsbK92vdV"
                     ]
                 },
                 "info": {
-                    "x": 1541,
-                    "y": 1632,
+                    "x": 1440,
+                    "y": 1650,
                     "z": 32,
                     "width": 231,
                     "height": 175,
@@ -10020,26 +10020,6 @@
                 }
             },
             {
-                "name": "text",
-                "inputs": {},
-                "options": {
-                    "text": "782963653347246091"
-                },
-                "outputs": {
-                    "text": [
-                        "ssnkPmGlLf"
-                    ]
-                },
-                "info": {
-                    "x": 0,
-                    "y": 1690,
-                    "z": 34,
-                    "width": 305,
-                    "height": 118,
-                    "color": "#5a5a5a"
-                }
-            },
-            {
                 "name": "get_member_info",
                 "inputs": {
                     "action": "IcxWaY83SD",
@@ -10069,13 +10049,13 @@
                 "name": "text_3x",
                 "inputs": {},
                 "options": {
-                    "text1": "782596491290214411",
+                    "text1": "config/roles/staff.txt",
                     "text2": "Commando succesvol uitgevoerd!",
                     "text3": "Je hebt geen toestemming om dit commando te gebruiken!"
                 },
                 "outputs": {
                     "text1": [
-                        "nWuQV9IwvF"
+                        "2dI80hswGx"
                     ],
                     "text2": [
                         "huTWThALPs"
@@ -10125,7 +10105,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "KrR2oBrgNv"
+                        "sBXl9nHk1r"
                     ],
                     "user": [],
                     "member": [
@@ -10334,15 +10314,16 @@
                 "name": "text_2x",
                 "inputs": {},
                 "options": {
-                    "text1": "870926790854586398",
-                    "text2": "Timeout gedeactiveerd voor: "
+                    "text1": "config/roles/timeout.txt",
+                    "text2": "config/channels/log.txt"
                 },
                 "outputs": {
                     "text1": [
-                        "oE4y8xac77"
+                        "AuoeJZbqW3"
                     ],
                     "text2": [
-                        "mOb1bXcFmR"
+                        "mOb1bXcFmR",
+                        "wi21pyMGHa"
                     ]
                 },
                 "info": {
@@ -10351,34 +10332,6 @@
                     "z": 46,
                     "width": 318,
                     "height": 185,
-                    "color": "#5a5a5a"
-                }
-            },
-            {
-                "name": "merge_texts",
-                "inputs": {
-                    "action": "1lt0Clwcdd",
-                    "text1": "YdmYqcXTXT",
-                    "text2": "mOb1bXcFmR",
-                    "custom_position": "b433shlIFR"
-                },
-                "options": {
-                    "position_type": "first"
-                },
-                "outputs": {
-                    "action": [
-                        "ayim3QqBht"
-                    ],
-                    "text": [
-                        "MgFRB6GOU5"
-                    ]
-                },
-                "info": {
-                    "x": 3159,
-                    "y": 1764,
-                    "z": 47,
-                    "width": 443,
-                    "height": 196,
                     "color": "#5a5a5a"
                 }
             },
@@ -10393,10 +10346,11 @@
                 },
                 "outputs": {
                     "action": [
-                        "1lt0Clwcdd"
+                        "KXzqm5gY4C"
                     ],
                     "result": [
-                        "YdmYqcXTXT"
+                        "YdmYqcXTXT",
+                        "y6tlTkwbqm"
                     ]
                 },
                 "info": {
@@ -10446,7 +10400,7 @@
                     "value3": "eqRXz7Sh1t"
                 },
                 "options": {
-                    "restriction_type": "current",
+                    "restriction_type": "all",
                     "search_type": "number"
                 },
                 "outputs": {
@@ -10480,6 +10434,115 @@
                     "height": 117,
                     "color": ""
                 }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "inputs": {
+                    "action": "KXzqm5gY4C",
+                    "text1": "y6tlTkwbqm",
+                    "text2": "vf1Kr45YPX",
+                    "text3": "YcpSUYDDMt"
+                },
+                "options": {
+                    "text": "Timeout gedeactiveerd voor: ${text1}"
+                },
+                "outputs": {
+                    "action": [
+                        "ayim3QqBht"
+                    ],
+                    "text": [
+                        "MgFRB6GOU5"
+                    ]
+                },
+                "info": {
+                    "x": 3080,
+                    "y": 2080,
+                    "z": 0,
+                    "width": 364,
+                    "height": 164,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "NRsbK92vdV",
+                    "file_path": "wi21pyMGHa"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "0KVkCMHGng"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "oE4y8xac77"
+                    ]
+                },
+                "info": {
+                    "x": 1390,
+                    "y": 1930,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "3QG65w4Ywq",
+                    "file_path": "AuoeJZbqW3"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "NnMSChJJGz"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "ssnkPmGlLf"
+                    ]
+                },
+                "info": {
+                    "x": 450,
+                    "y": 1800,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "sBXl9nHk1r",
+                    "file_path": "2dI80hswGx"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "KrR2oBrgNv"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "nWuQV9IwvF"
+                    ]
+                },
+                "info": {
+                    "x": 970,
+                    "y": 30,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
             }
         ],
         "notes": []
@@ -10500,7 +10563,7 @@
                     "text1": "",
                     "text2": "",
                     "text3": ",",
-                    "text4": "443121395615137792",
+                    "text4": "",
                     "text5": "<@&",
                     "text6": ">"
                 },
@@ -10668,7 +10731,7 @@
                         "Z2mi8qabHc"
                     ],
                     "action2": [
-                        "H7Qybme98c"
+                        "aFuvSB9a1z"
                     ],
                     "index": [],
                     "value": [
@@ -10778,8 +10841,8 @@
                     ]
                 },
                 "info": {
-                    "x": 2329,
-                    "y": 1694,
+                    "x": 1130,
+                    "y": 1860,
                     "z": 34,
                     "width": 446,
                     "height": 171,
@@ -10790,11 +10853,11 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "782963653347246091"
+                    "text": "config/roles/timeout.txt"
                 },
                 "outputs": {
                     "text": [
-                        "WTNbGsv37E"
+                        "L1swKZI8V6"
                     ]
                 },
                 "info": {
@@ -10819,7 +10882,7 @@
                 "options": {},
                 "outputs": {
                     "action": [
-                        "uy6KiKefbg"
+                        "CzwNnc0OAe"
                     ],
                     "action1": []
                 },
@@ -11027,13 +11090,13 @@
                 "name": "text_3x",
                 "inputs": {},
                 "options": {
-                    "text1": "782596491290214411",
+                    "text1": "config/roles/staff.txt",
                     "text2": "Commando succesvol uitgevoerd!",
                     "text3": "Je hebt geen toestemming om dit commando te gebruiken!"
                 },
                 "outputs": {
                     "text1": [
-                        "5s0vVxwZpz"
+                        "Stm01wWKAG"
                     ],
                     "text2": [
                         "GwiBuxqqPU"
@@ -11063,7 +11126,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "3uHmIZFhHO"
+                        "2xOPyHToIy"
                     ],
                     "user": [],
                     "member": [
@@ -11179,8 +11242,8 @@
                     "message": []
                 },
                 "info": {
-                    "x": 1019,
-                    "y": 456,
+                    "x": 1020,
+                    "y": 600,
                     "z": 50,
                     "width": 400,
                     "height": 299,
@@ -11207,8 +11270,8 @@
                     ]
                 },
                 "info": {
-                    "x": 1005,
-                    "y": 20,
+                    "x": 1000,
+                    "y": 250,
                     "z": 51,
                     "width": 446,
                     "height": 171,
@@ -11232,8 +11295,8 @@
                     ]
                 },
                 "info": {
-                    "x": 1092,
-                    "y": 241,
+                    "x": 1070,
+                    "y": 440,
                     "z": 52,
                     "width": 288,
                     "height": 144,
@@ -11280,46 +11343,19 @@
                 },
                 "outputs": {
                     "action": [
-                        "kUw1xa5Q0T"
+                        "GP3yR27hTF"
                     ],
                     "result": [
-                        "7C1mdBIs2s"
+                        "7C1mdBIs2s",
+                        "92unWdzAms"
                     ]
                 },
                 "info": {
-                    "x": 3495,
-                    "y": 2316,
+                    "x": 3430,
+                    "y": 2390,
                     "z": 54,
                     "width": 565,
                     "height": 160,
-                    "color": "#5a5a5a"
-                }
-            },
-            {
-                "name": "merge_texts",
-                "inputs": {
-                    "action": "kUw1xa5Q0T",
-                    "text1": "7C1mdBIs2s",
-                    "text2": "K7bDfEdL4J",
-                    "custom_position": "NervNyokpU"
-                },
-                "options": {
-                    "position_type": "first"
-                },
-                "outputs": {
-                    "action": [
-                        "oE0MFTurJa"
-                    ],
-                    "text": [
-                        "gBqau2md3R"
-                    ]
-                },
-                "info": {
-                    "x": 3498,
-                    "y": 2467,
-                    "z": 55,
-                    "width": 443,
-                    "height": 196,
                     "color": "#5a5a5a"
                 }
             },
@@ -11342,35 +11378,11 @@
                     "message": []
                 },
                 "info": {
-                    "x": 3498,
-                    "y": 2695,
+                    "x": 3500,
+                    "y": 2790,
                     "z": 56,
                     "width": 347,
                     "height": 206,
-                    "color": "#5a5a5a"
-                }
-            },
-            {
-                "name": "text_2x",
-                "inputs": {},
-                "options": {
-                    "text1": "870926790854586398",
-                    "text2": "Timeout geactiveerd voor: "
-                },
-                "outputs": {
-                    "text1": [
-                        "1e7kMIEfLG"
-                    ],
-                    "text2": [
-                        "K7bDfEdL4J"
-                    ]
-                },
-                "info": {
-                    "x": 2937,
-                    "y": 2336,
-                    "z": 57,
-                    "width": 318,
-                    "height": 185,
                     "color": "#5a5a5a"
                 }
             },
@@ -11385,7 +11397,7 @@
                     "value3": "DTEc1naMKw"
                 },
                 "options": {
-                    "restriction_type": "current",
+                    "restriction_type": "all",
                     "search_type": "number"
                 },
                 "outputs": {
@@ -11417,6 +11429,135 @@
                     "z": 0,
                     "width": 276,
                     "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "2xOPyHToIy",
+                    "file_path": "Stm01wWKAG"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "3uHmIZFhHO"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "5s0vVxwZpz"
+                    ]
+                },
+                "info": {
+                    "x": 1030,
+                    "y": 50,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "aFuvSB9a1z",
+                    "file_path": "L1swKZI8V6"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "H7Qybme98c"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "WTNbGsv37E"
+                    ]
+                },
+                "info": {
+                    "x": 580,
+                    "y": 1800,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "CzwNnc0OAe",
+                    "file_path": "0dkdA1Nvby"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "uy6KiKefbg"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "1e7kMIEfLG"
+                    ]
+                },
+                "info": {
+                    "x": 4000,
+                    "y": 1930,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text",
+                "inputs": {},
+                "options": {
+                    "text": "config/channels/log.txt"
+                },
+                "outputs": {
+                    "text": [
+                        "0dkdA1Nvby"
+                    ]
+                },
+                "info": {
+                    "x": 3630,
+                    "y": 1790,
+                    "z": 0,
+                    "width": 276,
+                    "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "inputs": {
+                    "action": "GP3yR27hTF",
+                    "text1": "92unWdzAms",
+                    "text2": "p7HQYkDSM4",
+                    "text3": "ALYUBmopvD"
+                },
+                "options": {
+                    "text": "Timeout geactiveerd voor: ${text1}"
+                },
+                "outputs": {
+                    "action": [
+                        "oE0MFTurJa"
+                    ],
+                    "text": [
+                        "gBqau2md3R"
+                    ]
+                },
+                "info": {
+                    "x": 3470,
+                    "y": 2570,
+                    "z": 0,
+                    "width": 364,
+                    "height": 164,
                     "color": ""
                 }
             }
