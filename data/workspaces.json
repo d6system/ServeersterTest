@@ -258,7 +258,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 5.6b5"
+                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 5.5.1"
                 },
                 "outputs": {
                     "text": [
@@ -5380,7 +5380,6 @@
                         "CHlLZksBnu"
                     ],
                     "result": [
-                        "Gn6Qw3RyQr",
                         "4yAlLiyWsP"
                     ]
                 },
@@ -5405,9 +5404,7 @@
                     "position_type": "last"
                 },
                 "outputs": {
-                    "action": [
-                        "bzfbmF91Dz"
-                    ],
+                    "action": [],
                     "list": []
                 },
                 "info": {
@@ -5432,7 +5429,6 @@
                     "list": [
                         "QQdHqNI9U7",
                         "RD7IcwkkPy",
-                        "6faD6a6aUO",
                         "QQ5Y3lCNQd"
                     ]
                 },
@@ -5509,8 +5505,7 @@
                         "ZB1ZB02jMn"
                     ],
                     "result": [
-                        "vYKoBjAVyn",
-                        "cBW9786wTi"
+                        "vYKoBjAVyn"
                     ]
                 },
                 "info": {
@@ -5534,9 +5529,7 @@
                     "position_type": "last"
                 },
                 "outputs": {
-                    "action": [
-                        "BG1emImGAT"
-                    ],
+                    "action": [],
                     "list": []
                 },
                 "info": {
@@ -6882,8 +6875,8 @@
                     ]
                 },
                 "info": {
-                    "x": 3030,
-                    "y": 1470,
+                    "x": 2680,
+                    "y": 1390,
                     "z": 0,
                     "width": 719,
                     "height": 160,
@@ -7410,8 +7403,8 @@
                     "action": []
                 },
                 "info": {
-                    "x": 3858,
-                    "y": 1565,
+                    "x": 3500,
+                    "y": 1480,
                     "z": 0,
                     "width": 398,
                     "height": 138,
@@ -7430,8 +7423,8 @@
                     ]
                 },
                 "info": {
-                    "x": 3786,
-                    "y": 1338,
+                    "x": 3190,
+                    "y": 1190,
                     "z": 0,
                     "width": 276,
                     "height": 117,
@@ -19339,7 +19332,7 @@
                     "x": 440,
                     "y": 2310,
                     "z": 0,
-                    "width": 219,
+                    "width": 243,
                     "height": 190,
                     "color": ""
                 }
@@ -22446,7 +22439,7 @@
                     "value3": "IuiG17zAAC"
                 },
                 "options": {
-                    "restriction_type": "current",
+                    "restriction_type": "all",
                     "search_type": "number"
                 },
                 "outputs": {
