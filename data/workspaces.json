@@ -258,7 +258,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6b08"
+                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6b09"
                 },
                 "outputs": {
                     "text": [
@@ -4080,7 +4080,7 @@
                 "inputs": {},
                 "options": {
                     "text1": "",
-                    "text2": "config/total.txt",
+                    "text2": "config/channels/stats.txt",
                     "text3": "",
                     "text4": ""
                 },
