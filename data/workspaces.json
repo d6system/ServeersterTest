@@ -13732,7 +13732,7 @@
                 "options": {
                     "channel_type": "any",
                     "find_channel_by": "id",
-                    "search_value": "870926790854586398"
+                    "search_value": ""
                 },
                 "outputs": {
                     "action": [
@@ -14370,8 +14370,8 @@
                     ]
                 },
                 "info": {
-                    "x": 2040,
-                    "y": 970,
+                    "x": 2030,
+                    "y": 960,
                     "z": 0,
                     "width": 451,
                     "height": 138,
@@ -14382,7 +14382,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "config/roles/timeout.txt"
+                    "text": "config/roles/inactive.txt"
                 },
                 "outputs": {
                     "text": [
@@ -15323,7 +15323,8 @@
                     "index": [],
                     "value": [
                         "y00GSBlcu7",
-                        "CebrnOujYp"
+                        "CebrnOujYp",
+                        "03J2MXSIZs"
                     ]
                 },
                 "info": {
@@ -15348,10 +15349,11 @@
                 },
                 "outputs": {
                     "action": [
-                        "cqUfzhKwxR"
+                        "osaleVCcmZ"
                     ],
                     "role": [
-                        "naMJ00lF4a"
+                        "naMJ00lF4a",
+                        "BAoQXBkeHY"
                     ]
                 },
                 "info": {
@@ -15378,8 +15380,8 @@
                     ]
                 },
                 "info": {
-                    "x": 1620,
-                    "y": 1610,
+                    "x": 1960,
+                    "y": 1620,
                     "z": 0,
                     "width": 209,
                     "height": 164,
@@ -15457,8 +15459,8 @@
                     ]
                 },
                 "info": {
-                    "x": 1900,
-                    "y": 1610,
+                    "x": 2260,
+                    "y": 1620,
                     "z": 0,
                     "width": 575,
                     "height": 160,
@@ -15662,7 +15664,6 @@
                     ],
                     "result": [
                         "Tsx1ruGNlX",
-                        "ptaxAq82f2",
                         "sFrlqIzkvw"
                     ]
                 },
@@ -15691,7 +15692,6 @@
                     ],
                     "text": [
                         "tjgPM8OKZr",
-                        "wEiWN9ioNS",
                         "oAYP8d2qwD"
                     ]
                 },
@@ -15721,7 +15721,6 @@
                     ],
                     "text": [
                         "pz3iOlsjk9",
-                        "OLjkMxTg5P",
                         "S1AWH5MMbs"
                     ]
                 },
@@ -17725,6 +17724,29 @@
                     "height": 171,
                     "color": ""
                 }
+            },
+            {
+                "name": "check_if_member_has_role",
+                "inputs": {
+                    "action": "osaleVCcmZ",
+                    "member": "03J2MXSIZs",
+                    "role": "BAoQXBkeHY"
+                },
+                "options": {},
+                "outputs": {
+                    "action1": [
+                        "cqUfzhKwxR"
+                    ],
+                    "action2": []
+                },
+                "info": {
+                    "x": 1640,
+                    "y": 1620,
+                    "z": 0,
+                    "width": 268,
+                    "height": 138,
+                    "color": ""
+                }
             }
         ],
         "notes": [
@@ -17807,7 +17829,6 @@
                         "1kWtVNaeSd"
                     ],
                     "result": [
-                        "MO92DQCAJT",
                         "TPexZ7Eriz"
                     ]
                 },
@@ -17834,8 +17855,6 @@
                         "Oyoee5yQvr"
                     ],
                     "result": [
-                        "Jb1bCloxP8",
-                        "TQjGzD7ABF",
                         "nUfxOEZO58"
                     ]
                 },
