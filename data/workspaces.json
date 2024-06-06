@@ -258,7 +258,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6.2.0b5"
+                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6.2.0"
                 },
                 "outputs": {
                     "text": [
@@ -732,8 +732,8 @@
                     "action": []
                 },
                 "info": {
-                    "x": 2940,
-                    "y": 690,
+                    "x": 5960,
+                    "y": 3570,
                     "z": 0,
                     "width": 289,
                     "height": 377,
@@ -1330,8 +1330,8 @@
                     ]
                 },
                 "info": {
-                    "x": 5690,
-                    "y": 2040,
+                    "x": 5370,
+                    "y": 930,
                     "z": 0,
                     "width": 319,
                     "height": 434,
@@ -1356,8 +1356,8 @@
                     ]
                 },
                 "info": {
-                    "x": 4240,
-                    "y": 1820,
+                    "x": 3920,
+                    "y": 710,
                     "z": 0,
                     "width": 556,
                     "height": 160,
@@ -1382,8 +1382,8 @@
                     ]
                 },
                 "info": {
-                    "x": 4230,
-                    "y": 2020,
+                    "x": 3910,
+                    "y": 910,
                     "z": 0,
                     "width": 556,
                     "height": 160,
@@ -1525,8 +1525,8 @@
                     ]
                 },
                 "info": {
-                    "x": 3230,
-                    "y": 1760,
+                    "x": 2910,
+                    "y": 650,
                     "z": 0,
                     "width": 412,
                     "height": 150,
@@ -1551,8 +1551,8 @@
                     ]
                 },
                 "info": {
-                    "x": 3700,
-                    "y": 1800,
+                    "x": 3380,
+                    "y": 690,
                     "z": 0,
                     "width": 365,
                     "height": 117,
@@ -1579,8 +1579,8 @@
                     ]
                 },
                 "info": {
-                    "x": 4980,
-                    "y": 1720,
+                    "x": 4660,
+                    "y": 610,
                     "z": 0,
                     "width": 364,
                     "height": 164,
@@ -1607,8 +1607,8 @@
                     ]
                 },
                 "info": {
-                    "x": 4980,
-                    "y": 1900,
+                    "x": 4660,
+                    "y": 790,
                     "z": 0,
                     "width": 364,
                     "height": 164,
@@ -1639,8 +1639,8 @@
                     "message": []
                 },
                 "info": {
-                    "x": 6130,
-                    "y": 2200,
+                    "x": 5810,
+                    "y": 1090,
                     "z": 0,
                     "width": 444,
                     "height": 320,
@@ -1659,8 +1659,8 @@
                     ]
                 },
                 "info": {
-                    "x": 6110,
-                    "y": 2010,
+                    "x": 5790,
+                    "y": 900,
                     "z": 0,
                     "width": 276,
                     "height": 117,
@@ -3701,7 +3701,7 @@
                     "y": 6120,
                     "z": 0,
                     "width": 740,
-                    "height": 280,
+                    "height": 270,
                     "color": ""
                 }
             },
@@ -3908,8 +3908,1001 @@
                     "x": 1080,
                     "y": 5440,
                     "z": 0,
-                    "width": 518,
-                    "height": 163,
+                    "width": 522,
+                    "height": 171,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text",
+                "inputs": {},
+                "options": {
+                    "text": "Geslaagd, notitie aangepast"
+                },
+                "outputs": {
+                    "text": [
+                        "FP7zj34TpS"
+                    ]
+                },
+                "info": {
+                    "x": 4930,
+                    "y": 8050,
+                    "z": 0,
+                    "width": 276,
+                    "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "reply_interaction",
+                "inputs": {
+                    "action": "3GiDaav9N0",
+                    "interaction": "ijRQVL8VZF",
+                    "message": "FP7zj34TpS",
+                    "embeds": "5xpBZbcyYv",
+                    "row1": "vUwDKL2nLh",
+                    "row2": "jjhlpt4IQI",
+                    "row3": "42gF3uJNan",
+                    "row4": "cBdUnpigAB",
+                    "row5": "p5y9r0Tsq9",
+                    "attachment": "vHmRDQIbzQ"
+                },
+                "options": {
+                    "response": "follow",
+                    "private": "true"
+                },
+                "outputs": {
+                    "action": [],
+                    "interaction": [],
+                    "message": []
+                },
+                "info": {
+                    "x": 4910,
+                    "y": 8220,
+                    "z": 0,
+                    "width": 444,
+                    "height": 320,
+                    "color": ""
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "inputs": {
+                    "action": "89FwikiasU",
+                    "text1": "SARurxP5HL",
+                    "text2": "AAub7HnnxG",
+                    "text3": "9BH4ZmHTyh"
+                },
+                "options": {
+                    "text": "Notitie ID is ${text2}:\n**Notitie**\n${text1}"
+                },
+                "outputs": {
+                    "action": [
+                        "XTzi24P5Pf"
+                    ],
+                    "text": [
+                        "vAalEvyWE7"
+                    ]
+                },
+                "info": {
+                    "x": 3970,
+                    "y": 8280,
+                    "z": 0,
+                    "width": 364,
+                    "height": 164,
+                    "color": ""
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "inputs": {
+                    "action": "1dZ4PEsFMU",
+                    "text1": "POVF01qWzV",
+                    "text2": "yIWXswSQXt",
+                    "text3": "Lsd1arDzHJ"
+                },
+                "options": {
+                    "text": "Notitie ${text2} aangepast"
+                },
+                "outputs": {
+                    "action": [
+                        "89FwikiasU"
+                    ],
+                    "text": [
+                        "Fg7icAurzE"
+                    ]
+                },
+                "info": {
+                    "x": 3970,
+                    "y": 8070,
+                    "z": 0,
+                    "width": 364,
+                    "height": 164,
+                    "color": ""
+                }
+            },
+            {
+                "name": "get_property_from_object_option",
+                "inputs": {
+                    "action": "vC9QfwvD9D",
+                    "object": "QbDPaVBHFq"
+                },
+                "options": {
+                    "key": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "1dZ4PEsFMU"
+                    ],
+                    "value": [
+                        "AAub7HnnxG",
+                        "yIWXswSQXt",
+                        "Y1MiBHro3D"
+                    ]
+                },
+                "info": {
+                    "x": 3460,
+                    "y": 8190,
+                    "z": 0,
+                    "width": 365,
+                    "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "get_item_from_list",
+                "inputs": {
+                    "action": "1EN8UupBi5",
+                    "list": "JxhHdxYVoQ",
+                    "custom_position": "7g5iiQWvHk"
+                },
+                "options": {
+                    "position_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "vC9QfwvD9D"
+                    ],
+                    "value": [
+                        "QbDPaVBHFq"
+                    ]
+                },
+                "info": {
+                    "x": 2990,
+                    "y": 8150,
+                    "z": 0,
+                    "width": 412,
+                    "height": 150,
+                    "color": ""
+                }
+            },
+            {
+                "name": "reply_interaction",
+                "inputs": {
+                    "action": "JEtAmik1yz",
+                    "interaction": "MKvscrHFdy",
+                    "message": "dqCZuCPDZ9",
+                    "embeds": "CZH3oR1wyh",
+                    "row1": "NQfE7FXHc2",
+                    "row2": "UReSA3zrGP",
+                    "row3": "FqfnSoxfNI",
+                    "row4": "WnLI2qS849",
+                    "row5": "huvlPciDFc",
+                    "attachment": "rOOuXGLed2"
+                },
+                "options": {
+                    "response": "defer",
+                    "private": "true"
+                },
+                "outputs": {
+                    "action": [
+                        "8Csrh5lLyw"
+                    ],
+                    "interaction": [
+                        "ijRQVL8VZF"
+                    ],
+                    "message": []
+                },
+                "info": {
+                    "x": 80,
+                    "y": 8340,
+                    "z": 0,
+                    "width": 444,
+                    "height": 320,
+                    "color": ""
+                }
+            },
+            {
+                "name": "merge_text_advanced_6x",
+                "inputs": {
+                    "action": "30QnWXAzP4",
+                    "text1": "ATpvgplFiy",
+                    "text2": "QovuprqHP7",
+                    "text3": "GdCSq9P08n",
+                    "text4": "msIQO97nOn",
+                    "text5": "yEi0DWMZ53",
+                    "text6": "e2cDzf0lMr"
+                },
+                "options": {
+                    "text": "SELECT * FROM `notities` WHERE `id` = '${text1}';"
+                },
+                "outputs": {
+                    "action": [
+                        "u2d24OsMUM"
+                    ],
+                    "text": [
+                        "CnbWXM42YR"
+                    ]
+                },
+                "info": {
+                    "x": 1880,
+                    "y": 8380,
+                    "z": 0,
+                    "width": 364,
+                    "height": 242,
+                    "color": ""
+                }
+            },
+            {
+                "name": "wait_with_number",
+                "inputs": {
+                    "action": "TbmmZYuQWX"
+                },
+                "options": {
+                    "time_type": "seconds",
+                    "time": 2
+                },
+                "outputs": {
+                    "action": [
+                        "30QnWXAzP4"
+                    ]
+                },
+                "info": {
+                    "x": 1940,
+                    "y": 8150,
+                    "z": 0,
+                    "width": 376,
+                    "height": 156,
+                    "color": ""
+                }
+            },
+            {
+                "name": "database_query",
+                "inputs": {
+                    "action": "u2d24OsMUM",
+                    "query": "CnbWXM42YR"
+                },
+                "options": {},
+                "outputs": {
+                    "action": [
+                        "1EN8UupBi5"
+                    ],
+                    "erroraction": [],
+                    "response": [
+                        "JxhHdxYVoQ"
+                    ],
+                    "errormsg": []
+                },
+                "info": {
+                    "x": 2500,
+                    "y": 8350,
+                    "z": 0,
+                    "width": 289,
+                    "height": 176,
+                    "color": ""
+                }
+            },
+            {
+                "name": "create_embed_message",
+                "inputs": {
+                    "action": "XTzi24P5Pf",
+                    "color": "gWUQi5i5JH",
+                    "thumbnail": "7M36RMKKKS",
+                    "author_icon": "3NfCzmFx6D",
+                    "author_name": "5ezHk6WNkJ",
+                    "author_url": "XxUpvU3ytY",
+                    "title": "Fg7icAurzE",
+                    "url": "AmZO83Nr2N",
+                    "description": "vAalEvyWE7",
+                    "image": "ej7ZEccGlG",
+                    "footer_icon": "dHTUez4BSU",
+                    "footer_text": "UxQG662HUg",
+                    "timestamp": "VZTcMG2t9o"
+                },
+                "options": {},
+                "outputs": {
+                    "action": [
+                        "3GiDaav9N0"
+                    ],
+                    "message_embed": [
+                        "5xpBZbcyYv"
+                    ]
+                },
+                "info": {
+                    "x": 4490,
+                    "y": 8060,
+                    "z": 0,
+                    "width": 319,
+                    "height": 434,
+                    "color": ""
+                }
+            },
+            {
+                "name": "database_query",
+                "inputs": {
+                    "action": "mgFnZN96FT",
+                    "query": "QZO8XWBdmr"
+                },
+                "options": {},
+                "outputs": {
+                    "action": [
+                        "TbmmZYuQWX"
+                    ],
+                    "erroraction": [],
+                    "response": [],
+                    "errormsg": []
+                },
+                "info": {
+                    "x": 1440,
+                    "y": 8220,
+                    "z": 0,
+                    "width": 289,
+                    "height": 176,
+                    "color": ""
+                }
+            },
+            {
+                "name": "merge_text_advanced_6x",
+                "inputs": {
+                    "action": "8Csrh5lLyw",
+                    "text1": "XgOJG6W0VV",
+                    "text2": "50aplttwaM",
+                    "text3": "0SUL3wtGci",
+                    "text4": "hMoppXy0GN",
+                    "text5": "hGInXPN3xN",
+                    "text6": "obhyC6olVl"
+                },
+                "options": {
+                    "text": "UPDATE `notities` SET `notitie` = '${text1}' WHERE `notities`.`id` = ${text2}"
+                },
+                "outputs": {
+                    "action": [
+                        "mgFnZN96FT"
+                    ],
+                    "text": [
+                        "QZO8XWBdmr"
+                    ]
+                },
+                "info": {
+                    "x": 760,
+                    "y": 8340,
+                    "z": 0,
+                    "width": 364,
+                    "height": 242,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text",
+                "inputs": {},
+                "options": {
+                    "text": "Je hebt geen toestemming om dit commando te gebruiken"
+                },
+                "outputs": {
+                    "text": [
+                        "YFPLdzHmuT"
+                    ]
+                },
+                "info": {
+                    "x": 3030,
+                    "y": 7500,
+                    "z": 0,
+                    "width": 276,
+                    "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "check_if_member_has_role",
+                "inputs": {
+                    "action": "rP4daszJqR",
+                    "member": "MZLLgX52av",
+                    "role": "R0N91Pk1nS"
+                },
+                "options": {},
+                "outputs": {
+                    "action1": [
+                        "JEtAmik1yz"
+                    ],
+                    "action2": [
+                        "VOBV5CUEXO"
+                    ]
+                },
+                "info": {
+                    "x": 2630,
+                    "y": 7660,
+                    "z": 0,
+                    "width": 268,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "find_role",
+                "inputs": {
+                    "action": "K46NiK0YNg",
+                    "server": "ltgWbd4vuE",
+                    "search_value": "DNAdyIGwuq"
+                },
+                "options": {
+                    "find_role_by": "id",
+                    "search_value": ""
+                },
+                "outputs": {
+                    "action": [
+                        "rP4daszJqR"
+                    ],
+                    "role": [
+                        "R0N91Pk1nS"
+                    ]
+                },
+                "info": {
+                    "x": 2060,
+                    "y": 7620,
+                    "z": 0,
+                    "width": 423,
+                    "height": 171,
+                    "color": ""
+                }
+            },
+            {
+                "name": "reply_interaction",
+                "inputs": {
+                    "action": "VOBV5CUEXO",
+                    "interaction": "9wGqcgvrjm",
+                    "message": "YFPLdzHmuT",
+                    "embeds": "MGm0oTtudd",
+                    "row1": "jJkaRUhR1E",
+                    "row2": "TauDNSSl8f",
+                    "row3": "D9dD5VzAhF",
+                    "row4": "Kkp9DkC9lu",
+                    "row5": "aGnfpxmKRL",
+                    "attachment": "Jiapk0dvAY"
+                },
+                "options": {
+                    "response": "reply",
+                    "private": "true"
+                },
+                "outputs": {
+                    "action": [],
+                    "interaction": [],
+                    "message": []
+                },
+                "info": {
+                    "x": 3040,
+                    "y": 7660,
+                    "z": 0,
+                    "width": 444,
+                    "height": 320,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text",
+                "inputs": {},
+                "options": {
+                    "text": "config/roles/staff.txt"
+                },
+                "outputs": {
+                    "text": [
+                        "nCijHhWHp5"
+                    ]
+                },
+                "info": {
+                    "x": 1220,
+                    "y": 7570,
+                    "z": 0,
+                    "width": 276,
+                    "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "ZN7oAk7r5H",
+                    "file_path": "nCijHhWHp5"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "K46NiK0YNg"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "DNAdyIGwuq"
+                    ]
+                },
+                "info": {
+                    "x": 1540,
+                    "y": 7640,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "get_interaction_argument_by_name",
+                "inputs": {
+                    "action": "TFogPuyqu0",
+                    "interaction": "YgDwX4rZ6u",
+                    "name": "Zmhrm4E9oN"
+                },
+                "options": {
+                    "name": "notitie",
+                    "get": "string"
+                },
+                "outputs": {
+                    "action": [
+                        "ZN7oAk7r5H"
+                    ],
+                    "output": [
+                        "SARurxP5HL",
+                        "XgOJG6W0VV"
+                    ]
+                },
+                "info": {
+                    "x": 650,
+                    "y": 7800,
+                    "z": 0,
+                    "width": 469,
+                    "height": 171,
+                    "color": ""
+                }
+            },
+            {
+                "name": "get_interaction_argument_by_name",
+                "inputs": {
+                    "action": "ccalHJxUwr",
+                    "interaction": "ikR2984zQL",
+                    "name": "RM9A9uQCQC"
+                },
+                "options": {
+                    "name": "id",
+                    "get": "string"
+                },
+                "outputs": {
+                    "action": [
+                        "TFogPuyqu0"
+                    ],
+                    "output": [
+                        "T0XRBbLrnP",
+                        "50aplttwaM",
+                        "ATpvgplFiy"
+                    ]
+                },
+                "info": {
+                    "x": 650,
+                    "y": 7590,
+                    "z": 0,
+                    "width": 469,
+                    "height": 171,
+                    "color": ""
+                }
+            },
+            {
+                "name": "interaction_event",
+                "inputs": {},
+                "options": {
+                    "type": "slash",
+                    "id": "editnotitie",
+                    "sub": "",
+                    "group": "",
+                    "value": ""
+                },
+                "outputs": {
+                    "action": [
+                        "ccalHJxUwr"
+                    ],
+                    "user": [],
+                    "member": [
+                        "MZLLgX52av",
+                        "xDuTNAbfgz"
+                    ],
+                    "server": [
+                        "ltgWbd4vuE"
+                    ],
+                    "channel": [],
+                    "message": [],
+                    "interaction": [
+                        "ikR2984zQL",
+                        "YgDwX4rZ6u",
+                        "9wGqcgvrjm",
+                        "MKvscrHFdy"
+                    ],
+                    "args": [],
+                    "name": [],
+                    "menuvalues": [],
+                    "subcommandname": [],
+                    "subcommandgroup": []
+                },
+                "info": {
+                    "x": 130,
+                    "y": 7590,
+                    "z": 0,
+                    "width": 396,
+                    "height": 396,
+                    "color": ""
+                }
+            },
+            {
+                "name": "interaction_event",
+                "inputs": {},
+                "options": {
+                    "type": "slash",
+                    "id": "verwijdernotitie",
+                    "sub": "",
+                    "group": "",
+                    "value": ""
+                },
+                "outputs": {
+                    "action": [
+                        "qtnbx8I1Xz"
+                    ],
+                    "user": [],
+                    "member": [
+                        "UzbTzrZ7CN"
+                    ],
+                    "server": [
+                        "whzqUWJI1h"
+                    ],
+                    "channel": [],
+                    "message": [],
+                    "interaction": [
+                        "gov0NjlCNx",
+                        "a8nljFDu5T",
+                        "WNpah1Xv9D",
+                        "xwwPbKAvcr"
+                    ],
+                    "args": [],
+                    "name": [],
+                    "menuvalues": [],
+                    "subcommandname": [],
+                    "subcommandgroup": []
+                },
+                "info": {
+                    "x": 80,
+                    "y": 8910,
+                    "z": 0,
+                    "width": 396,
+                    "height": 396,
+                    "color": ""
+                }
+            },
+            {
+                "name": "get_interaction_argument_by_name",
+                "inputs": {
+                    "action": "qtnbx8I1Xz",
+                    "interaction": "gov0NjlCNx",
+                    "name": "R6qcVjQXcv"
+                },
+                "options": {
+                    "name": "id",
+                    "get": "string"
+                },
+                "outputs": {
+                    "action": [
+                        "tBWQycM4ZJ"
+                    ],
+                    "output": [
+                        "oZFROrnXA0",
+                        "YYv0OI9nDn"
+                    ]
+                },
+                "info": {
+                    "x": 600,
+                    "y": 8910,
+                    "z": 0,
+                    "width": 469,
+                    "height": 171,
+                    "color": ""
+                }
+            },
+            {
+                "name": "read_file",
+                "inputs": {
+                    "action": "tBWQycM4ZJ",
+                    "file_path": "0cpnCyiONe"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "YBqFPDuvbs"
+                    ],
+                    "action2": [],
+                    "content": [
+                        "RvAxKckiX8"
+                    ]
+                },
+                "info": {
+                    "x": 1490,
+                    "y": 8960,
+                    "z": 0,
+                    "width": 451,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text",
+                "inputs": {},
+                "options": {
+                    "text": "config/roles/staff.txt"
+                },
+                "outputs": {
+                    "text": [
+                        "0cpnCyiONe"
+                    ]
+                },
+                "info": {
+                    "x": 1170,
+                    "y": 8890,
+                    "z": 0,
+                    "width": 276,
+                    "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "reply_interaction",
+                "inputs": {
+                    "action": "v5d1BibNlz",
+                    "interaction": "WNpah1Xv9D",
+                    "message": "ItbeGZN7j5",
+                    "embeds": "nJd7Qu4d2f",
+                    "row1": "AnJVu92YmL",
+                    "row2": "tqccFkmkxC",
+                    "row3": "c8JBs2OQAA",
+                    "row4": "b2PCiRxHCK",
+                    "row5": "hFZqaa3ODe",
+                    "attachment": "egp3BpaQ15"
+                },
+                "options": {
+                    "response": "reply",
+                    "private": "true"
+                },
+                "outputs": {
+                    "action": [],
+                    "interaction": [],
+                    "message": []
+                },
+                "info": {
+                    "x": 2990,
+                    "y": 8980,
+                    "z": 0,
+                    "width": 444,
+                    "height": 320,
+                    "color": ""
+                }
+            },
+            {
+                "name": "find_role",
+                "inputs": {
+                    "action": "YBqFPDuvbs",
+                    "server": "whzqUWJI1h",
+                    "search_value": "RvAxKckiX8"
+                },
+                "options": {
+                    "find_role_by": "id",
+                    "search_value": ""
+                },
+                "outputs": {
+                    "action": [
+                        "CYw0bHDWp3"
+                    ],
+                    "role": [
+                        "GRVlN3QVlt"
+                    ]
+                },
+                "info": {
+                    "x": 2010,
+                    "y": 8940,
+                    "z": 0,
+                    "width": 423,
+                    "height": 171,
+                    "color": ""
+                }
+            },
+            {
+                "name": "check_if_member_has_role",
+                "inputs": {
+                    "action": "CYw0bHDWp3",
+                    "member": "UzbTzrZ7CN",
+                    "role": "GRVlN3QVlt"
+                },
+                "options": {},
+                "outputs": {
+                    "action1": [
+                        "sir4bcqgJJ"
+                    ],
+                    "action2": [
+                        "v5d1BibNlz"
+                    ]
+                },
+                "info": {
+                    "x": 2580,
+                    "y": 8980,
+                    "z": 0,
+                    "width": 268,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text",
+                "inputs": {},
+                "options": {
+                    "text": "Je hebt geen toestemming om dit commando te gebruiken"
+                },
+                "outputs": {
+                    "text": [
+                        "ItbeGZN7j5"
+                    ]
+                },
+                "info": {
+                    "x": 2980,
+                    "y": 8820,
+                    "z": 0,
+                    "width": 276,
+                    "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "merge_text_advanced_6x",
+                "inputs": {
+                    "action": "AgUNxwMmGn",
+                    "text1": "YYv0OI9nDn",
+                    "text2": "FhJFzrBZNR",
+                    "text3": "vJ5z34PK1h",
+                    "text4": "WiZvCii2CH",
+                    "text5": "uQi4iqGkFY",
+                    "text6": "rY2z5RAx5l"
+                },
+                "options": {
+                    "text": "DELETE FROM `notities` WHERE `notities`.`id` = ${text1};"
+                },
+                "outputs": {
+                    "action": [
+                        "CHEtxXJYDP"
+                    ],
+                    "text": [
+                        "aZVr989tkx"
+                    ]
+                },
+                "info": {
+                    "x": 650,
+                    "y": 9470,
+                    "z": 0,
+                    "width": 364,
+                    "height": 242,
+                    "color": ""
+                }
+            },
+            {
+                "name": "database_query",
+                "inputs": {
+                    "action": "CHEtxXJYDP",
+                    "query": "aZVr989tkx"
+                },
+                "options": {},
+                "outputs": {
+                    "action": [
+                        "nkOpJM9at0"
+                    ],
+                    "erroraction": [],
+                    "response": [],
+                    "errormsg": []
+                },
+                "info": {
+                    "x": 1390,
+                    "y": 9540,
+                    "z": 0,
+                    "width": 289,
+                    "height": 176,
+                    "color": ""
+                }
+            },
+            {
+                "name": "reply_interaction",
+                "inputs": {
+                    "action": "sir4bcqgJJ",
+                    "interaction": "xwwPbKAvcr",
+                    "message": "r1F0yek14e",
+                    "embeds": "vykBlvCLIp",
+                    "row1": "Vu7NQZZYnS",
+                    "row2": "5mjO9mfTmn",
+                    "row3": "FJPyXrgtN1",
+                    "row4": "8nGTxgc72o",
+                    "row5": "GkeXDkw6Wa",
+                    "attachment": "ExXO6zUqti"
+                },
+                "options": {
+                    "response": "defer",
+                    "private": "true"
+                },
+                "outputs": {
+                    "action": [
+                        "AgUNxwMmGn"
+                    ],
+                    "interaction": [
+                        "x2CPc34DbE"
+                    ],
+                    "message": []
+                },
+                "info": {
+                    "x": 100,
+                    "y": 9430,
+                    "z": 0,
+                    "width": 444,
+                    "height": 320,
+                    "color": ""
+                }
+            },
+            {
+                "name": "reply_interaction",
+                "inputs": {
+                    "action": "nkOpJM9at0",
+                    "interaction": "x2CPc34DbE",
+                    "message": "AcSd849a7Y",
+                    "embeds": "FYeWzgb6Et",
+                    "row1": "F1VSLSrsrM",
+                    "row2": "xZ0dscmKwa",
+                    "row3": "yUM0YNxpqK",
+                    "row4": "FP2MDq6abP",
+                    "row5": "6E8mtuBe5S",
+                    "attachment": "DaTCIM8lWN"
+                },
+                "options": {
+                    "response": "follow",
+                    "private": "true"
+                },
+                "outputs": {
+                    "action": [],
+                    "interaction": [],
+                    "message": []
+                },
+                "info": {
+                    "x": 1830,
+                    "y": 9460,
+                    "z": 0,
+                    "width": 444,
+                    "height": 320,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text",
+                "inputs": {},
+                "options": {
+                    "text": "Geslaagd, notitie verwijderd"
+                },
+                "outputs": {
+                    "text": [
+                        "AcSd849a7Y"
+                    ]
+                },
+                "info": {
+                    "x": 1430,
+                    "y": 9370,
+                    "z": 0,
+                    "width": 276,
+                    "height": 117,
                     "color": ""
                 }
             }
@@ -10710,7 +11703,8 @@
                         "2mcs0xVWNc",
                         "8XJ2t6ozzg",
                         "nc0tEZhq8D",
-                        "G6PuZ3ICA3"
+                        "G6PuZ3ICA3",
+                        "k1wgOCDLXN"
                     ]
                 },
                 "info": {
@@ -11192,7 +12186,9 @@
                     "action1": [
                         "DpY74QORJQ"
                     ],
-                    "action2": []
+                    "action2": [
+                        "9N5ZPf0owc"
+                    ]
                 },
                 "info": {
                     "x": 100,
