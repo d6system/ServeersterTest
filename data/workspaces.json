@@ -258,7 +258,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6.3.0b1"
+                    "text": "ValkyriaBot™ version 7.0.0\nServeerster versie 6.3.0"
                 },
                 "outputs": {
                     "text": [
@@ -5940,8 +5940,8 @@
                     ]
                 },
                 "info": {
-                    "x": 3520,
-                    "y": 10620,
+                    "x": 3660,
+                    "y": 10580,
                     "z": 0,
                     "width": 365,
                     "height": 117,
@@ -6274,7 +6274,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "CViyDaxKEh"
+                        "9wcyZa6bbh"
                     ],
                     "text": [
                         "p90Eq72lTK",
@@ -6606,7 +6606,8 @@
                     ],
                     "output": [
                         "YH5fUSMPkX",
-                        "vwKNMrVXks"
+                        "vwKNMrVXks",
+                        "4fvQjpa8DG"
                     ]
                 },
                 "info": {
